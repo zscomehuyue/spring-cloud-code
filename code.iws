@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97466370-f997-4896-98fb-5255a24ebf47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/java/cn/springcloud/book/Ch21EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/java/cn/springcloud/book/Ch21EurekaClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/resources/application-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/resources/application-demo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/src/main/resources/application-standalone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/src/main/resources/application-standalone.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-1/ch8-1-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-1/ch8-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-1/ch8-1-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-2/ch8-2-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-2/ch8-2-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-2/ch8-2-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-2/ch8-2-auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-3/ch8-3-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-3/ch8-3-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-4/ch8-4-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-4/ch8-4-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-3/ch8-3-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-4/ch8-4-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-5/ch8-5-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-5/ch8-5-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-5/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-4/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-6/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-7/ch8-7-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-5/ch8-5-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-7/ch8-7-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-6/ch8-6-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-7/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-6/ch8-6-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch8-7/ch8-7-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-7-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-1/ch4-1-gzip/target/" />
+    <ignored path="$PROJECT_DIR$/ch15-1/ch15-1-core-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch15-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-3/ch7-3-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-5/ch14-5-consul-override-consumer-new/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-3/ch16-3-zuul-skywalking/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-saga-servicecomb/target/" />
+    <ignored path="$PROJECT_DIR$/ch25/crm-sales-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-7-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch15-1/ch15-1-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-2/ch3-2-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-3/ch6-3-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-2/ch12-2-config-server-multiple-repositories/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-3/ch16-3-script/target/" />
+    <ignored path="$PROJECT_DIR$/ch25/crm-sales-app/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-1/ch5-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/ch10-1-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-2/ch14-2-consul-provider-tag-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-4/ch6-4-collapsing/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch23-2/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-4/ch12-4-config-client-mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch25/crm-sales-domain/target/" />
+    <ignored path="$PROJECT_DIR$/ch20/cloud-grpc-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-1/ch7-1-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-4/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-10/ch12-10-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-1/ch22-1-3-jdk8-docker/target/" />
+    <ignored path="$PROJECT_DIR$/ch21-1/ch21-1-discovery-console/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-2/ch16-2-sleuth-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-1/ch18-1-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-2/ch6-2-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch13-1/ch13-1-consul-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-10/ch12-10-config-client-apollo/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-5/ch18-5-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-1/ch12-1-config-server-placeholders/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-6/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-5-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-1/ch6-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-5/target/" />
+    <ignored path="$PROJECT_DIR$/ch20/cloud-grpc-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch25/crm-sales-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-3/ch6-3-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-5/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/ch10-1-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch19-2/grpc-simple-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-tcc-rest/order-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-5/ch4-5-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-3/ch3-3-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-1/ch22-1-4-jdk10-docker/target/" />
+    <ignored path="$PROJECT_DIR$/ch19-2/grpc-lib-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-2/ch5-2-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-4/ch6-4-provider-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-saga-servicecomb/omega-order-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-tcc-rest/inventory-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-6/ch4-6-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-1/ch3-1-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-4/ch14-4-consul-override-provider-tag1/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-1/ch7-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-1/ch17-1-2-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-1/ch18-1-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-4/ch18-4-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-1/ch12-1-config-client-placeholders/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-5/ch12-5-config-client-refresh-autoconfig/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-5/ch18-5-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-1-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-10/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-6/ch18-6-1-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-5/ch3-5-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-3/ch3-3-zuul-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-2/ch14-2-consul-consumer-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-3/ch11-3-config-client-bus-refresh-second/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch25/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-4/ch4-4-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-3/ch18-3-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch25/crm-sales-start/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-5/ch3-5-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-6/ch4-6-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-1/ch16-1-sleuth-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-3/ch14-3-consul-config-customize/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-1/ch14-1-consul-register/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-4/ch6-4-hystrix-cache/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-1-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-6/ch12-6-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-saga-servicecomb/alpha-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-3/ch3-3-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-5/ch14-5-consul-provider2/target/" />
+    <ignored path="$PROJECT_DIR$/ch21-1/ch21-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-2/ch5-2-ribbon-loadbalancer/target/" />
+    <ignored path="$PROJECT_DIR$/ch21-1/ch21-1-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-2/ch11-2-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch19-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-2/ch4-2-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-5/ch12-5-config-client-auto-refresh/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-1/ch3-1-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-8/ch12-8-config-client-high-availability/target/" />
+    <ignored path="$PROJECT_DIR$/ch23-2/demo-dubbo-provider-api/target/" />
+    <ignored path="$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch20/grpc-lib/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-2/ch22-2-5-spring-admin/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-2/ch18-2-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-5/ch12-5-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch13-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-3/ch6-3-hystrix-exception-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-7/ch12-7-config-client-jwt/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-9/ch12-9-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-3/ch12-3-config-server-db/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-5/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/ch10-1-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch15-1/ch15-1-eureka-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-3/ch12-3-config-client-db/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-8/ch12-8-config-client-high-availability-autoconfig/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-1/ch17-1-1-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-2/ch6-2-consumer-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch23-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-2/ch18-2-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-6-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch2-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-10/ch12-10-gateway-zuul-apollo/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-8-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch25/crm-sales-infrastructure/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-5/ch18-5-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-4/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-7/ch18-7-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-5/ch4-5-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-3/ch11-3-config-client-bus-refresh/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-6/ch4-6-provider-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-5/ch14-5-consul-override-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-2/ch3-2-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-3/ch6-3-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-7/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-5/ch14-5-consul-provider1/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-6/ch18-6-3-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-3/ch6-3-provider-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-4-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch19-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-10/ch12-10-config-client-apollo2/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-6/ch12-6-config-client-fallback-autoconfig/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-7/ch12-7-config-server-auth-jwt/target/" />
+    <ignored path="$PROJECT_DIR$/ch21-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-2/ch7-2-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-3/ch18-3-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-2/ch22-2-6-biz-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-1/ch11-1-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-3/ch4-3-okhttp/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-saga-servicecomb/omega-inventory-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-4/ch6-4-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-4-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-2/ch4-2-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-4/ch3-4-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch20/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-3/ch11-3-config-server-bus/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-1/ch18-1-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-7/ch12-7-config-client-auth-jwt/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-5/ch4-5-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/ch10-1-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/ch21-1/ch21-1-original-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-2/ch14-2-consul-provider-tag-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-2/ch7-2-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-4/ch14-4-consul-override-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/ch10-1-common/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-1/ch5-1-ribbon-loadbalancer/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-6/ch18-6-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-jta-atomikos/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-2-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-tcc-rest/tcc-coordinator-example/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-4/target/" />
+    <ignored path="$PROJECT_DIR$/ch13-1/ch13-1-consul-config/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-2/ch4-2-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-2/ch11-2-config-client-refresh/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/ch10-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch15-1/ch15-1-client-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-4/ch18-4-gateway-https/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-6/ch4-6-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch20/cloud-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-4/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-2-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-1/ch7-1-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-1/ch6-1-client-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-6/ch12-6-config-client-fallback/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-4/ch18-4-service-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-2/ch3-2-zuul-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/ch10-1-data-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-saga-servicecomb/saga-servicecomb-example/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-5-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-9/ch12-9-config-server-high-availability/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-6/ch18-6-2-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-1/ch5-1-client-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-4/ch4-4-feign-file-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-2/ch22-2-2-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-4/target/" />
+    <ignored path="$PROJECT_DIR$/ch15-1/ch15-1-provider-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch13-1/ch13-1-consul-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-8/ch12-8-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-1/ch3-1-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-2/ch7-2-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-6/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-4/ch6-4-hystrix-thread-context/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-10/ch12-10-apollo-build-script/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-3-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-4/ch4-4-feign-upload-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-3/ch7-3-zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch23-2/demo-dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-3/ch17-3-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-4/ch18-4-service-b/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-9/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-9-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-2/ch22-2-1-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch10-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-tcc-rest/tcc-coordinator-atomikos/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-3/ch7-3-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-2/ch22-2-3-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-6-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-3/ch22-3-3-example-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-2/ch14-2-consul-consumer-discoveryclient/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-4/ch3-4-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch3-5/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-2/ch12-2-config-client-multiple-repositories/target/" />
+    <ignored path="$PROJECT_DIR$/ch23-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-2/ch6-2-provider-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-3/ch16-3-eureka-server-skywalking/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-1/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-2/ch16-2-sleuth-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-1/ch16-1-sleuth-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-1/ch4-1-hello/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-1/ch18-1-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-3/ch16-3-service-a/target/" />
+    <ignored path="$PROJECT_DIR$/ch19-2/grpc-simple-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch24/ch24-tcc-rest/target/" />
+    <ignored path="$PROJECT_DIR$/ch6-3/ch6-3-hello-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch17-2/ch17-2-3-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ch5-2/ch5-2-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-5/target/" />
+    <ignored path="$PROJECT_DIR$/ch18-7/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-4/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-8/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-2/ch22-2-4-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/ch7-3/ch7-3-client-b/target/" />
+    <ignored path="$PROJECT_DIR$/ch11-1/ch11-1-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-6/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-3/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-2/target/" />
+    <ignored path="$PROJECT_DIR$/ch14-4/ch14-4-consul-override-provider-tag2/target/" />
+    <ignored path="$PROJECT_DIR$/ch4-3/ch4-3-httpclient/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-4/ch12-4-config-server-mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/ch12-9/ch12-9-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/ch23-2/demo-dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/ch22-3/ch22-3-2-example-service/target/" />
+    <ignored path="$PROJECT_DIR$/ch16-3/ch16-3-service-b/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Commander">
+    <leftPanel view="Project" />
+    <rightPanel view="Project" />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="Cvs2Configuration">
+    <option name="ON_FILE_ADDING" value="0" />
+    <option name="ON_FILE_REMOVING" value="0" />
+    <option name="PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="SHOW_UPDATE_OPTIONS" value="true" />
+    <option name="SHOW_ADD_OPTIONS" value="true" />
+    <option name="SHOW_REMOVE_OPTIONS" value="true" />
+    <option name="MERGING_MODE" value="0" />
+    <option name="MERGE_WITH_BRANCH1_NAME" value="HEAD" />
+    <option name="MERGE_WITH_BRANCH2_NAME" value="HEAD" />
+    <option name="RESET_STICKY" value="false" />
+    <option name="CREATE_NEW_DIRECTORIES" value="true" />
+    <option name="DEFAULT_TEXT_FILE_SUBSTITUTION" value="kv" />
+    <option name="PROCESS_UNKNOWN_FILES" value="false" />
+    <option name="PROCESS_DELETED_FILES" value="false" />
+    <option name="SHOW_EDIT_DIALOG" value="true" />
+    <option name="RESERVED_EDIT" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <option name="SHOW_CHECKOUT_OPTIONS" value="true" />
+    <option name="CHECKOUT_DATE_OR_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="UPDATE_DATE_OR_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="SHOW_CHANGES_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="SHOW_OUTPUT" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="ADD_WATCH_INDEX" value="0" />
+    <option name="REMOVE_WATCH_INDEX" value="0" />
+    <option name="UPDATE_KEYWORD_SUBSTITUTION" />
+    <option name="MAKE_NEW_FILES_READONLY" value="false" />
+    <option name="SHOW_CORRUPTED_PROJECT_FILES" value="0" />
+    <option name="TAG_AFTER_FILE_COMMIT" value="false" />
+    <option name="TAG_AFTER_FILE_COMMIT_NAME" value="" />
+    <option name="TAG_AFTER_PROJECT_COMMIT" value="false" />
+    <option name="TAG_AFTER_PROJECT_COMMIT_NAME" value="" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="SAVE_LAST_COMMIT_MESSAGE" value="true" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_FILE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints converted="true" />
+    <exception_breakpoints converted="true">
+      <breakpoint_any>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="SUSPEND_VM" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CONDITION" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="LOG_MESSAGE" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INVERSE_CLASS_FILLTERS" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+      </breakpoint_any>
+    </exception_breakpoints>
+    <field_breakpoints converted="true" />
+    <method_breakpoints converted="true" />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="TOSTRING_CLASSES_ENABLED" value="false" />
+    <option name="VALUE_LOOKUP_DELAY" value="700" />
+    <option name="DEBUGGER_TRANSPORT" value="0" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="HIDE_DEBUGGER_ON_PROCESS_TERMINATION" value="false" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CONSTRUCTORS" value="false" />
+    <option name="STEP_THREAD_SUSPEND_POLICY" value="SuspendThread" />
+    <default_breakpoint_settings>
+      <option name="NOTIFY_CAUGHT" value="true" />
+      <option name="NOTIFY_UNCAUGHT" value="true" />
+      <option name="WATCH_MODIFICATION" value="true" />
+      <option name="WATCH_ACCESS" value="true" />
+      <option name="WATCH_ENTRY" value="true" />
+      <option name="WATCH_EXIT" value="true" />
+      <option name="ENABLED" value="true" />
+      <option name="SUSPEND_VM" value="true" />
+      <option name="COUNT_FILTER_ENABLED" value="false" />
+      <option name="COUNT_FILTER" value="0" />
+      <option name="CONDITION_ENABLED" value="false" />
+      <option name="CONDITION" />
+      <option name="LOG_ENABLED" value="false" />
+      <option name="LOG_EXPRESSION_ENABLED" value="false" />
+      <option name="LOG_MESSAGE" />
+      <option name="CLASS_FILTERS_ENABLED" value="false" />
+      <option name="INVERSE_CLASS_FILLTERS" value="false" />
+      <option name="SUSPEND_POLICY" value="SuspendAll" />
+    </default_breakpoint_settings>
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="EjbViewSettings">
+    <EjbView showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.2/eureka-core-1.9.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="625" column="51" selection-start-line="625" selection-start-column="51" selection-end-line="625" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/resources/application-demo.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/src/main/java/cn/springcloud/book/Ch21EurekaServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/java/cn/springcloud/book/Ch21EurekaClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ip-addres</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SHOW_PACKAGES" value="false" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SORT_ALPHABETICALLY" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/java/cn/springcloud/book/Ch21EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/src/main/resources/application-standalone.yml" />
+        <option value="$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/resources/application-demo.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="InspectionManager">
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SPLITTER_PROPORTION" value="0.5" />
+    <profile name="Default" />
+  </component>
+  <component name="LvcsProjectConfiguration">
+    <option name="ADD_LABEL_ON_PROJECT_OPEN" value="true" />
+    <option name="ADD_LABEL_ON_PROJECT_COMPILATION" value="true" />
+    <option name="ADD_LABEL_ON_FILE_PACKAGE_COMPILATION" value="true" />
+    <option name="ADD_LABEL_ON_PROJECT_MAKE" value="true" />
+    <option name="ADD_LABEL_ON_RUNNING" value="true" />
+    <option name="ADD_LABEL_ON_DEBUGGING" value="true" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="true" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="PerforceConfiguration">
+    <option name="PORT" value="magic:1666" />
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="CLIENT" value="" />
+    <option name="TRACE" value="false" />
+    <option name="PERFORCE_STATUS" value="true" />
+    <option name="CHANGELIST_OPTION" value="false" />
+    <option name="SYSTEMROOT" value="" />
+    <option name="P4_EXECUTABLE" value="p4" />
+    <option name="SHOW_BRANCH_HISTORY" value="false" />
+    <option name="GENERATE_COMMENT" value="false" />
+    <option name="SYNC_OPTION" value="Sync" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="SAVE_LAST_COMMIT_MESSAGE" value="true" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_FILE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-book" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2-1-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewSettings">
+    <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
+    <view id="ProjectPane">
+      <expanded_node type="directory" url="file://$PROJECT_DIR$" />
+    </view>
+    <view id="SourcepathPane" />
+    <view id="ClasspathPane" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563354942474" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Ch21EurekaClientApplication">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch21EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch2-1-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch21EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch21EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch2-1-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch21EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch31ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-1-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch31ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch31EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-1-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch31EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch31EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-1-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch31EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch322EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-2-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch322EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch322ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-2-zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch322ZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch32EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-2-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch32EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch33EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-3-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch33EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch33EurkeaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-3-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch33EurkeaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch33ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-3-zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch33ZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch34EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-4-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch34EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch34EurkeaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-4-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch34EurkeaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch35EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-5-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch35EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch35EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch3-5-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.Ch35EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch4-5-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.feign.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch4-4-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch4-5-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.feign.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SCFeignFileServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch4-4-feign-file-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.feign.SCFeignFileServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SCFeignFileUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch4-4-feign-upload-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.feign.SCFeignFileUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ch4-1-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.springcloud.book.feign.SpringCloudFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="StarteamConfiguration">
+    <option name="SERVER" value="" />
+    <option name="PORT" value="49201" />
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="PROJECT" value="" />
+    <option name="VIEW" value="" />
+    <option name="ALTERNATIVE_WORKING_PATH" value="" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97466370-f997-4896-98fb-5255a24ebf47" name="Default Changelist" comment="" />
+      <created>1563242835986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563242835986</updated>
+      <workItem from="1563242837918" duration="7319000" />
+      <workItem from="1563327223211" duration="2043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9362000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="23" width="1280" height="720" extended-state="6" />
+    <layout>
+      <window_info id="Project" order="0" visible="true" weight="0.2924071" />
+      <window_info id="Structure" order="1" weight="0.24959612" />
+      <window_info id="Web" order="2" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42975205" />
+      <window_info anchor="bottom" id="EJB" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="CVS" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Aspects" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.319063" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Json Parser" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VssConfiguration">
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="COMMENT" value="" />
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+      <option name="FILE_TYPE" value="0" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="0" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <DiffOptions>
+      <option name="IGNORE_WHITE_SPACE" value="false" />
+      <option name="IGNORE_CASE" value="false" />
+    </DiffOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </GetOptions>
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <option name="SHOW_CHECKOUT_OPTIONS" value="true" />
+    <option name="SHOW_ADD_OPTIONS" value="true" />
+    <option name="SHOW_UNDOCHECKOUT_OPTIONS" value="true" />
+    <option name="SHOW_DIFF_OPTIONS" value="true" />
+    <option name="SHOW_GET_OPTIONS" value="true" />
+    <option name="USE_EXTERNAL_DIFF" value="false" />
+    <option name="EXTERNAL_DIFF_PATH" value="" />
+    <option name="REUSE_LAST_COMMENT" value="false" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+  </component>
+  <component name="WebViewSettings">
+    <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.0.RELEASE/spring-boot-starter-parent-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="264" column="24" lean-forward="true" selection-start-line="264" selection-start-column="24" selection-end-line="264" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5829">
+          <caret line="504" column="12" selection-start-line="504" selection-start-column="12" selection-end-line="504" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/test/java/cn/springcloud/book/Ch21EurekaClientApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/src/main/resources/application-standalone.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4-2/ch4-2-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch18-5/ch18-5-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2.jar!/com/netflix/appinfo/InstanceInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#32010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2-sources.jar!/com/netflix/discovery/converters/Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.netflix.appinfo.InstanceInfo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.netflix.appinfo.InstanceInfo</OriginalElement>
+          <nodes>
+            <node x="441.0" y="0.0">com.thoughtworks.xstream.annotations.XStreamAlias</node>
+            <node x="234.75" y="79.0">com.netflix.appinfo.InstanceInfo</node>
+            <node x="303.0" y="0.0">com.google.inject.ProvidedBy</node>
+            <node x="180.0" y="0.0">com.netflix.discovery.provider.Serializer</node>
+            <node x="0.0" y="79.0">com.netflix.appinfo.LeaseInfo</node>
+            <node x="18.0" y="0.0">com.fasterxml.jackson.annotation.JsonRootName</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.netflix.appinfo.LeaseInfo" target="com.fasterxml.jackson.annotation.JsonRootName">
+              <point x="0.0" y="-14.5" />
+              <point x="-35.5" y="14.5" />
+            </edge>
+            <edge source="com.netflix.appinfo.InstanceInfo" target="com.google.inject.ProvidedBy">
+              <point x="15.5" y="-14.5" />
+              <point x="312.25" y="49.0" />
+              <point x="362.0" y="49.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.netflix.appinfo.InstanceInfo" target="com.netflix.discovery.provider.Serializer">
+              <point x="-15.5" y="-14.5" />
+              <point x="281.25" y="49.0" />
+              <point x="231.5" y="49.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.netflix.appinfo.InstanceInfo" target="com.fasterxml.jackson.annotation.JsonRootName">
+              <point x="-46.5" y="-14.5" />
+              <point x="250.25" y="59.0" />
+              <point x="124.5" y="59.0" />
+              <point x="35.5" y="14.5" />
+            </edge>
+            <edge source="com.netflix.appinfo.InstanceInfo" target="com.thoughtworks.xstream.annotations.XStreamAlias">
+              <point x="46.5" y="-14.5" />
+              <point x="343.25" y="59.0" />
+              <point x="505.5" y="59.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="230.0" y="144.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonCreator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.2/eureka-core-1.9.2.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.2/eureka-core-1.9.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="625" column="51" selection-start-line="625" selection-start-column="51" selection-end-line="625" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/resources/application-demo.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-server/src/main/java/cn/springcloud/book/Ch21EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2-1/ch2-1-eureka-client/src/main/java/cn/springcloud/book/Ch21EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
