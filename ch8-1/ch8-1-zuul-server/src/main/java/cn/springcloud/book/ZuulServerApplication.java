@@ -39,8 +39,12 @@ public class ZuulServerApplication {
             MonitoringHelper.initMocks();
             FilterLoader.getInstance().setCompiler(new GroovyCompiler());
             try {
+                //FIXME 改名目录可以固定一个文件目录，通过配置，该配置有默认值；for exmaple : /Data/filters ...
+                //FIXME 从filterloader中获取filter，并可以提供一个获取出口，该regster中心； 客户端使用时从该处获取；只要通过key就可以了；
+
                 FilterFileManager.setFilenameFilter(new GroovyFileFilter());
                 FilterFileManager.init(20, "/Users/Administrator/workspace-scbook/ch8-1/ch8-1-zuul-server/src/main/java/cn/springcloud/book/groovy");
+
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
