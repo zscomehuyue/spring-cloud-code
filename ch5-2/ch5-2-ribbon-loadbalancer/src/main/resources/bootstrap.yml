@@ -11,13 +11,13 @@ eureka:
     prefer-ip-address: true
 #client-a:
 #  ribbon:
-#    ConnectTimeout: 3000
+#    ConnectTimeout: 3000 #FIXME 负载均衡具有的属性： 超时和重试，
 #    ReadTimeout: 60000
 #    MaxAutoRetries: 1 #对第一次请求的服务的重试次数
 #    MaxAutoRetriesNextServer: 1 #要重试的下一个服务的最大数量（不包括第一个服务）
 #    OkToRetryOnAllOperations: true
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule#
 #ribbon:
-#  eager-load:
+#  eager-load: # FIXME 饥饿加载的方式，并制定直接加载的服务名称；因为ribbon是在访问时，才进行初始化的，这样可能会存在超时的问题；
 #    enabled: true
 #    clients: client-a, client-b, client-c

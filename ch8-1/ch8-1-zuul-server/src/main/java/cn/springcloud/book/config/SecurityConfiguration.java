@@ -10,6 +10,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
+		//FIXME 权限配置，所有的权限都可以执行；
 		http
 		.requestMatcher(EndpointRequest.toAnyEndpoint())
 		.authorizeRequests()
