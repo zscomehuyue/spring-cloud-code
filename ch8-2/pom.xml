@@ -5,7 +5,7 @@
 	<artifactId>ch8-2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
+	<name>autho2.0-jwt</name>
 	<modules>
 		<module>ch8-2-eureka-server</module>
 		<module>ch8-2-zuul-server</module>
